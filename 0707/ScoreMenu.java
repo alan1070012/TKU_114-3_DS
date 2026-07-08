@@ -1,11 +1,11 @@
 import java.util.*;
 public class ScoreMenu {
     public static void main(String[] argv){
-        System.out.println("請輸入姓名");
-        System.out.println("請輸入 Java、English、Math 三科成績");
-
+        
         Scanner sc = new Scanner(System.in);
+        System.out.println("請輸入姓名");
         String name = sc.next();
+        System.out.println("請輸入 Java、English、Math 三科成績");
         Double Java = sc.nextDouble();
         Double English = sc.nextDouble();
         Double Math = sc.nextDouble();
@@ -42,9 +42,10 @@ public class ScoreMenu {
                 break;
             default:      
                 System.out.println("Unknown option");
-            }sc.close();    
+                 
+            } option = sc.nextInt();   
         }
-        
+        sc.close(); 
 
 
     }

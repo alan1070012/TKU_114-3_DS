@@ -17,6 +17,7 @@ public class DrinkMenu {
                 break;
             default:
                 System.out.println("Unkown option");
+                sc.close();
         }
 
     }

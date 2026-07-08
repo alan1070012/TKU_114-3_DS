@@ -10,6 +10,7 @@ public class TemperatureLevel {
             System.out.println("Temperature level: Comfortable");
         }else{
             System.out.println("Temperature level: Hot");
+            sc.close();
         }
     }
 }
